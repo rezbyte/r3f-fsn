@@ -1,0 +1,13 @@
+.path-manager {
+  display: flex;
+  flex-direction: column;
+}
+
+.path-manager > * {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+.path-manager > input[type="text"] {
+  background-color: #b88e8f;
+}
