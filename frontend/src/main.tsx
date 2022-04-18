@@ -11,6 +11,7 @@ ReactDOM.render(
     <Toolbar />
     <PathManager />
     <CameraControls />
+    <hr />
     <Search />
     <hr />
   </React.StrictMode>,

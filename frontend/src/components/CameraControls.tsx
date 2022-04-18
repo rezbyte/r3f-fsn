@@ -20,7 +20,6 @@ export default function CameraControls() {
         <input id="height-slider" type="range" />
         <label htmlFor="height-slider">Height</label>
       </div>
-      <hr />
     </div>
   );
 }
