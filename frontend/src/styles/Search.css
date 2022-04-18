@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.search > * {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.search > p {
+  margin: 0em;
+}
+
+.search-buttons > button {
+  padding: 0.5em;
+  width: 4em;
+}
