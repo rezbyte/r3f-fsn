@@ -10,6 +10,10 @@ hr {
   border-bottom-color: #dcdcdc;
 }
 
+input[type="text"] {
+  background-color: #b88e8f;
+}
+
 button {
   outline: 0.13em solid black;
   background-color: #999999;
