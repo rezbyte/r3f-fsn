@@ -12,6 +12,8 @@
 
 .toolbar .dropdown-header {
     outline: none;
+    border: none;
+    background-color: inherit;
     font-style: italic;
     font-weight: bold;
     border-color: transparent;
