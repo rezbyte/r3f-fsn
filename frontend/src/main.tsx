@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import CameraControls from "./components/CameraControls";
+import Marks from "./components/Marks";
 import PathManager from "./components/PathManager";
 import Search from "./components/Search";
 import Toolbar from "./components/Toolbar";
@@ -14,6 +15,7 @@ ReactDOM.render(
     <hr />
     <Search />
     <hr />
+    <Marks />
   </React.StrictMode>,
   document.getElementById("root")
 );

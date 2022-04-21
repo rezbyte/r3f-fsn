@@ -1,0 +1,24 @@
+.path-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #999999;
+  min-width: 12em;
+  min-height: 8em;
+  border-width: 0.2em;
+  border-style: solid;
+  border-top-color: #626262;
+  border-left-color: #626262;
+  border-bottom-color: #ececec;
+  border-right-color: #ececec;
+  outline: black solid 0.1em;
+  outline-offset: -0.15em;
+}
+
+.path-list  tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.path-list  tr:hover {
+  background-color: #dee0dd;
+}
