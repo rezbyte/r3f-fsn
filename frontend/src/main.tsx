@@ -1,14 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import CameraControls from "./components/CameraControls";
 import ColourGuide from "./components/ColourGuide";
 import Marks from "./components/Marks";
 import PathManager from "./components/PathManager";
 import Search from "./components/Search";
 import Toolbar from "./components/Toolbar";
+import View from "./components/View";
 import "./styles/Global.css";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+const root = createRoot(container!);
+
+root.render(
   <React.StrictMode>
     <Toolbar />
     <PathManager />
@@ -17,7 +21,7 @@ ReactDOM.render(
     <Search />
     <hr />
     <Marks />
+    <View />
     <ColourGuide />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
