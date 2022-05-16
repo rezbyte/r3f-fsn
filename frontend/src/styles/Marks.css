@@ -15,6 +15,13 @@
   justify-content: center;
 }
 
+.marks-buttons > button {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 .goto-button {
   margin-left: 2em;
   margin-right: 1em;
