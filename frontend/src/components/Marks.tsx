@@ -9,7 +9,7 @@ export default function Marks() {
         <button className="goto-button">go to</button>
         <button>delete</button>
       </div>
-      <button>mark</button>
+      <button className="marks-mark-button">mark</button>
     </div>
   );
 }
