@@ -12,51 +12,51 @@
   border-right-color: black;
 }
 
+.colour-guide > pre {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding: 0.1em;
+}
+
 .colour-guide-ages {
   margin-top: 1.1em;
 }
 
 .colour-guide-1-week {
   background-color: #9d1d1e;
-  padding: 0.2em;
   color: white;
 }
 
 .colour-guide-2-weeks {
   background-color: #985d1b;
-  padding: 0.2em;
 }
 
 .colour-guide-1-month {
   background-color: #98952a;
-  padding: 0.2em;
 }
 
 .colour-guide-3-months {
   background-color: #22605b;
-  padding: 0.2em;
   color: white;
 }
 
 .colour-guide-6-months {
   background-color: #1d4293;
-  padding: 0.2em;
   color: white;
 }
 
 .colour-guide-1-year {
   background-color: #682489;
-  padding: 0.2em;
   color: white;
 }
 
 .colour-guide-more-than-1-year {
   background-color: #582341;
-  padding: 0.2em;
   color: white;
 }
 
 .colour-guide-monitored {
   background-color: #c67071;
-  padding: 0.2em;
 }
