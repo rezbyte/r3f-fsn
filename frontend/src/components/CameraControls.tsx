@@ -13,7 +13,6 @@ export default function CameraControls() {
         <button>birds eye</button>
         <button>front view</button>
       </div>
-      <hr />
       <div className="sliders">
         <input id="tilt-slider" type="range" />
         <label htmlFor="tilt-slider">Tilt</label>
