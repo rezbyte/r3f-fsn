@@ -18,9 +18,7 @@ root.render(
     <Toolbar />
     <PathManager />
     <CameraControls />
-    <hr />
     <Search />
-    <hr />
     <Marks />
     <View />
     <ColourGuide />

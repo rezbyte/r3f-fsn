@@ -10,9 +10,7 @@
     "cc pm"
     "cc vw"
     "cc vw"
-    "hr1 vw"
     "sh vw"
-    "hr2 vw"
     "mk vw"
     "mk vw"
     "mk cg";
@@ -30,6 +28,9 @@
   border-right-style: solid;
   border-right-width: 0.1em;
   border-right-color: #949494;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  border-bottom-color: #949494;
 }
 
 #root > .camera-controls > .buttons {
@@ -48,11 +49,17 @@
 #root > .search {
   grid-area: sh;
   padding-right: 0.4em;
-  margin-left: 1em;
-  margin-top: -0.5em;
+  padding-left: 1em;
+  padding-top: -0.5em;
   border-right-style: solid;
   border-right-width: 0.1em;
   border-right-color: #949494;
+  border-top-style: solid;
+  border-top-width: 0.1em;
+  border-top-color: #dcdcdc;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  border-bottom-color: #949494;
 }
 
 #root > .search + hr {
@@ -70,10 +77,13 @@
   border-right-style: solid;
   border-right-width: 0.1em;
   border-right-color: #949494;
+  border-top-style: solid;
+  border-top-width: 0.1em;
+  border-top-color: #dcdcdc;
 }
 
 #root > .marks > .marks-header {
-  margin-top: -0.5em;
+  padding-top: 0.5em;
 }
 
 #root > .path-manager {
