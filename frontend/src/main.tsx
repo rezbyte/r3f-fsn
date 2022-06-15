@@ -6,7 +6,7 @@ import Marks from "./components/Marks";
 import PathManager from "./components/PathManager";
 import Search from "./components/Search";
 import Toolbar from "./components/Toolbar";
-import View from "./components/View";
+import View from "./components/View/View";
 import "./styles/Global.css";
 import "./styles/Layout.css";
 

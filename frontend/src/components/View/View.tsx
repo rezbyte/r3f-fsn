@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
+import SkyBox from "./Skybox";
 
 function Box(props: JSX.IntrinsicElements["mesh"]) {
   const mesh = useRef<THREE.Mesh>(null!);
@@ -25,6 +26,7 @@ function Box(props: JSX.IntrinsicElements["mesh"]) {
 export default function View() {
   return (
     <Canvas className="view" frameloop="demand">
+      <SkyBox />
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
       <Box position={[-1.2, 0, 0]} />
