@@ -9,7 +9,12 @@ export default function Toolbar() {
       <Dropdown header="Display" items={["e", "f"]} />
       <Dropdown header="Directory" items={["g", "h"]} />
       <Dropdown header="File" items={["i", "j"]} />
-      <Dropdown className="end" header="Help" items={["k", "l"]} />
+      <Dropdown
+        className="end"
+        header="Help"
+        items={["k", "l"]}
+        reverse={true}
+      />
     </div>
   );
 }

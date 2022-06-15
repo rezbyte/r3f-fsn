@@ -4,6 +4,7 @@ import "../styles/Dropdown.css";
 interface DropdownProps extends HTMLAttributes<HTMLDivElement> {
   header: string;
   items: string[];
+  reverse?: boolean;
 }
 
 export default function Dropdown(props: DropdownProps) {
@@ -20,7 +21,13 @@ export default function Dropdown(props: DropdownProps) {
       <button className={`dropdown-header ${show ? "show" : ""}`}>
         {props.header}
       </button>
-      <div className={`dropdown-content ${show ? "show" : ""}`}>{itemList}</div>
+      <div
+        className={`dropdown-content ${show ? "show" : ""} ${
+          props.reverse ? "dropdown-right" : ""
+        }`}
+      >
+        {itemList}
+      </div>
     </div>
   );
 }
