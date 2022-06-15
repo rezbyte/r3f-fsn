@@ -108,6 +108,8 @@
   border-bottom-style: solid;
   border-bottom-width: 0.1em;
   border-bottom-color: #949494;
+  width:  initial !important;
+  height: initial !important;
 }
 
 #root > .colour-guide {
