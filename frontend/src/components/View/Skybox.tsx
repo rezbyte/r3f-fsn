@@ -7,7 +7,11 @@ export default function SkyBox(props: JSX.IntrinsicElements["mesh"]) {
   return (
     <mesh {...props} ref={mesh} scale={10} position={[0, 0, 0]}>
       <boxGeometry args={[1, 1, 1]} />
-      <shaderMaterial side={THREE.BackSide} fragmentShader={fragmentShader} />
+      <shaderMaterial
+        side={THREE.BackSide}
+        fragmentShader={fragmentShader}
+        uniforms={{ resolution: { value: [1, 2] } }}
+      />
     </mesh>
   );
 }
