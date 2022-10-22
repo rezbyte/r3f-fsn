@@ -1,4 +1,4 @@
-#root {
+.app {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -18,11 +18,11 @@
   width: 100vw;
 }
 
-#root > .toolbar {
+.app > .toolbar {
   grid-area: tb;
 }
 
-#root > .camera-controls {
+.app > .camera-controls {
   grid-area: cc;
   padding-right: 0.4em;
   border-right-style: solid;
@@ -33,12 +33,12 @@
   border-bottom-color: #949494;
 }
 
-#root > .camera-controls > .buttons {
+.app > .camera-controls > .buttons {
   margin-left: 0.5em;
   margin-top: 0.5em;
 }
 
-#root > .camera-controls + hr {
+.app > .camera-controls + hr {
   grid-area: hr1;
   padding-right: 0.4em;
   border-right-style: solid;
@@ -46,7 +46,7 @@
   border-right-color: #949494;
 }
 
-#root > .search {
+.app > .search {
   grid-area: sh;
   padding-right: 0.4em;
   padding-left: 1em;
@@ -62,7 +62,7 @@
   border-bottom-color: #949494;
 }
 
-#root > .search + hr {
+.app > .search + hr {
   grid-area: hr2;
   padding-right: 0.4em;
   border-right-style: solid;
@@ -70,7 +70,7 @@
   border-right-color: #949494;
 }
 
-#root > .marks {
+.app > .marks {
   grid-area: mk;
   padding-right: 0.4em;
   margin-left: 1em;
@@ -82,11 +82,11 @@
   border-top-color: #dcdcdc;
 }
 
-#root > .marks > .marks-header {
+.app > .marks > .marks-header {
   padding-top: 0.5em;
 }
 
-#root > .path-manager {
+.app > .path-manager {
   grid-area: pm;
   padding-left: 0.4em;
   border-left-style: solid;
@@ -97,7 +97,7 @@
   border-bottom-color: #949494;
 }
 
-#root > .view {
+.app > .view {
   grid-area: vw;
   border-left-style: solid;
   border-left-width: 0.1em;
@@ -112,7 +112,7 @@
   height: initial !important;
 }
 
-#root > .colour-guide {
+.app > .colour-guide {
   grid-area: cg;
   border-left-style: solid;
   border-left-width: 0.1em;

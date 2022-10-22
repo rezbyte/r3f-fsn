@@ -1,6 +1,12 @@
+import { ChangeEventHandler } from "react";
 import "../styles/CameraControls.css";
 
-export default function CameraControls() {
+interface cameraControlsProps {
+  height: number;
+  onHeightChange: ChangeEventHandler<HTMLInputElement>;
+}
+
+export default function CameraControls(props: cameraControlsProps) {
   return (
     <div className="camera-controls">
       <div className="buttons">
@@ -16,7 +22,15 @@ export default function CameraControls() {
       <div className="sliders">
         <input id="tilt-slider" type="range" />
         <label htmlFor="tilt-slider">Tilt</label>
-        <input id="height-slider" type="range" />
+        <input
+          id="height-slider"
+          type="range"
+          min="-10"
+          max="10"
+          step="0.1"
+          value={-props.height}
+          onChange={props.onHeightChange}
+        />
         <label htmlFor="height-slider">Height</label>
       </div>
     </div>
