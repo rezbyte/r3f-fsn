@@ -4,6 +4,7 @@ import { Color } from "@react-three/fiber";
 import * as dayjs from "dayjs";
 import Text from "./Text";
 import { Vector3 } from "three";
+import FileInterface from "../../types/file";
 
 function getColourFromAge(date: Date): Color {
   const today = dayjs();
@@ -27,13 +28,9 @@ function getColourFromAge(date: Date): Color {
   }
 }
 
-interface fileProps {
-  name: string;
-  byteSize: number;
-  creationDate: Date;
-}
-
-export default function File(props: fileProps & JSX.IntrinsicElements["mesh"]) {
+export default function File(
+  props: FileInterface & JSX.IntrinsicElements["mesh"]
+) {
   const mesh = useRef<THREE.Mesh>(null);
 
   const colour = getColourFromAge(props.creationDate);
